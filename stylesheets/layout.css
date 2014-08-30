@@ -1,0 +1,32 @@
+html, 
+body,
+body > section,
+.square100 { width:  100%;  height:  100%; min-height: 100%;}
+ 
+.square1   { width:  128px; height:  128px; }
+.square2   { width:  256px; height:  256px; }
+.square3   { width:  384px; height:  384px; }
+.square4   { width:  512px; height:  512px; }
+.square5   { width:  640px; height:  640px; }
+.square6   { width:  768px; height:  768px; }
+.square7   { width:  896px; height:  896px; }
+.square8   { width: 1024px; height: 1024px; }
+ 
+.col1      { width:  128px;                 }
+.col2      { width:  256px;                 }
+.col3      { width:  384px;                 }
+.col4      { width:  512px;                 }
+.col5      { width:  640px;                 }
+.col6      { width:  768px;                 }
+.col7      { width:  896px;                 }
+.col8      { width: 1024px;                 }
+ 
+.row1      {                height:  128px; }
+.row2      {                height:  256px; }
+.row3      {                height:  384px; }
+.row4      {                height:  512px; }
+.row5      {                height:  640px; }
+.row6      {                height:  768px; }
+.row7      {                height:  896px; }
+.row8      {                height: 1024px; }
+

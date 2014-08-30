@@ -1,0 +1,51 @@
+.photoSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blackOverlay {
+	position: absolute;
+	left: 0;
+	background: black;
+	opacity: .6;
+}
+
+.photoSection > section {
+	position: relative;
+	background: white;
+	z-index: 1;
+	/*margin: auto; */
+	border-radius: 5px;
+}
+
+.photoSection a {
+	display: block;
+}
+
+.photoSection > section,
+.photo ul {
+	display: flex;
+}
+
+.photo {
+	overflow: hidden;
+	/*overflow: scroll;*/
+}
+
+.photo ul {
+	width: 1280px;
+}
+
+.photo a {
+	background-size: cover;
+}
+/*.photoSection > nav,
+.photoSection .photo {
+	display: inline-block;
+}*/
+
+#foodSection {
+	background-image: url(../images/food-background.jpg);
+	background-size: cover;
+}
